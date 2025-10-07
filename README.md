@@ -36,51 +36,6 @@ To design and implement a SQL-based analytics model that: 1. Cleans and structur
 **Records:** 32,581  
 **Source:** Kaggle Credit Risk Dataset  
 
----
-
-##  Repository Structure
-
-SQL Project/
-
-├── data/
-
-│ ├── credit_risk_dataset.csv
-
-│ └── outputs/
-
-│ ├── kpi_default_rate.csv
-
-│ ├── kpi_by_income.csv
-
-│ ├── kpi_by_home_ownership.csv
-
-│ ├── kpi_by_employment.csv
-
-│ ├── kpi_by_prior_default.csv
-
-│ ├── kpi_by_credit_history.csv
-
-│ ├── kpi_by_loan_intent.csv
-
-│ ├── kpi_by_loan_grade.csv
-
-│ ├── kpi_by_interest_rate.csv
-
-│ ├── kpi_portfolio_averages.csv
-
-│ └── risk_bands.csv
-
-├── sql/
-
-│ ├── 01_kpis.sql # Portfolio KPIs
-
-│ ├── 02_customer_kpis.sql # Customer-based analysis
-
-│ ├── 03_loan_kpis.sql # Loan-level analysis
-
-│ └── 04_risk_scoring.sql # Risk scoring model
-
-└── README.md
 
 
 
